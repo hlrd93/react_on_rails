@@ -1,4 +1,5 @@
-# README
+# react_on_rails
+testeando la gema react_on_rails
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
