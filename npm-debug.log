@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/herwin/.nvm/versions/node/v7.5.0/bin/node',
+1 verbose cli   '/home/herwin/.nvm/versions/node/v7.5.0/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@4.1.2
+3 info using node@v7.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly loadIdealTree Finishing
+21 silly currentTree Escritorio
+21 silly currentTree ├── asap@2.0.5
+21 silly currentTree ├── buffer-shims@1.0.0
+21 silly currentTree ├── bulk-require@1.0.0
+21 silly currentTree ├── core-util-is@1.0.2
+21 silly currentTree ├─┬ dom-serializer@0.1.0
+21 silly currentTree │ └── domelementtype@1.1.3
+21 silly currentTree ├── domelementtype@1.3.0
+21 silly currentTree ├── domhandler@2.3.0
+21 silly currentTree ├── domutils@1.5.1
+21 silly currentTree ├── entities@1.1.1
+21 silly currentTree ├── glob@3.2.11
+21 silly currentTree ├── htmllint@0.6.0
+21 silly currentTree ├── htmlparser2@3.9.2
+21 silly currentTree ├── inherits@2.0.3
+21 silly currentTree ├── isarray@1.0.0
+21 silly currentTree ├── lodash@4.17.4
+21 silly currentTree ├── lru-cache@2.7.3
+21 silly currentTree ├── minimatch@0.3.0
+21 silly currentTree ├── process-nextick-args@1.0.7
+21 silly currentTree ├── promise@7.1.1
+21 silly currentTree ├── readable-stream@2.2.2
+21 silly currentTree ├── sigmund@1.0.1
+21 silly currentTree ├── string_decoder@0.10.31
+21 silly currentTree └── util-deprecate@1.0.2
+22 silly idealTree Escritorio
+22 silly idealTree ├── asap@2.0.5
+22 silly idealTree ├── buffer-shims@1.0.0
+22 silly idealTree ├── bulk-require@1.0.0
+22 silly idealTree ├── core-util-is@1.0.2
+22 silly idealTree ├─┬ dom-serializer@0.1.0
+22 silly idealTree │ └── domelementtype@1.1.3
+22 silly idealTree ├── domelementtype@1.3.0
+22 silly idealTree ├── domhandler@2.3.0
+22 silly idealTree ├── domutils@1.5.1
+22 silly idealTree ├── entities@1.1.1
+22 silly idealTree ├── glob@3.2.11
+22 silly idealTree ├── htmllint@0.6.0
+22 silly idealTree ├── htmlparser2@3.9.2
+22 silly idealTree ├── inherits@2.0.3
+22 silly idealTree ├── isarray@1.0.0
+22 silly idealTree ├── lodash@4.17.4
+22 silly idealTree ├── lru-cache@2.7.3
+22 silly idealTree ├── minimatch@0.3.0
+22 silly idealTree ├── process-nextick-args@1.0.7
+22 silly idealTree ├── promise@7.1.1
+22 silly idealTree ├── readable-stream@2.2.2
+22 silly idealTree ├── sigmund@1.0.1
+22 silly idealTree ├── string_decoder@0.10.31
+22 silly idealTree └── util-deprecate@1.0.2
+23 silly generateActionsToTake Starting
+24 silly install generateActionsToTake
+25 silly generateActionsToTake Finishing
+26 silly diffTrees action count 0
+27 silly decomposeActions action count 0
+28 silly runTopLevelLifecycles Starting
+29 silly install runPreinstallTopLevelLifecycles
+30 silly preinstall Escritorio
+31 info lifecycle undefined~preinstall: undefined
+32 silly lifecycle undefined~preinstall: no script for preinstall, continuing
+33 silly executeActions Starting
+34 silly install executeActions
+35 silly doSerial global-install 0
+36 silly doParallel fetch 0
+37 verbose correctMkdir /home/herwin/.npm/_locks correctMkdir not in flight; initializing
+38 verbose lock using /home/herwin/.npm/_locks/staging-2ebebc43704e7627.lock for /home/herwin/Escritorio/node_modules/.staging
+39 verbose unlock done using /home/herwin/.npm/_locks/staging-2ebebc43704e7627.lock for /home/herwin/Escritorio/node_modules/.staging
+40 silly rollbackFailedOptional Starting
+41 silly rollbackFailedOptional Finishing
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 warn enoent ENOENT: no such file or directory, open '/home/herwin/Escritorio/package.json'
+45 verbose enoent ENOENT: no such file or directory, open '/home/herwin/Escritorio/package.json'
+45 verbose enoent This is most likely not a problem with npm itself
+45 verbose enoent and is related to npm not being able to find a file.
+46 warn Escritorio No description
+47 verbose If you need help, you may report this error at:
+47 verbose     <https://github.com/npm/npm/issues>
+48 warn Escritorio No repository field.
+49 verbose If you need help, you may report this error at:
+49 verbose     <https://github.com/npm/npm/issues>
+50 warn Escritorio No README data
+51 verbose If you need help, you may report this error at:
+51 verbose     <https://github.com/npm/npm/issues>
+52 warn Escritorio No license field.
+53 verbose If you need help, you may report this error at:
+53 verbose     <https://github.com/npm/npm/issues>
+54 verbose stack Error: EACCES: permission denied, mkdir '/home/herwin/Escritorio/node_modules/.staging'
+55 verbose cwd /home/herwin/Escritorio/projects/react_project
+56 error Linux 4.4.0-64-generic
+57 error argv "/home/herwin/.nvm/versions/node/v7.5.0/bin/node" "/home/herwin/.nvm/versions/node/v7.5.0/bin/npm" "i"
+58 error node v7.5.0
+59 error npm  v4.1.2
+60 error path /home/herwin/Escritorio/node_modules/.staging
+61 error code EACCES
+62 error errno -13
+63 error syscall mkdir
+64 error Error: EACCES: permission denied, mkdir '/home/herwin/Escritorio/node_modules/.staging'
+64 error  { Error: EACCES: permission denied, mkdir '/home/herwin/Escritorio/node_modules/.staging'
+64 error   errno: -13,
+64 error   code: 'EACCES',
+64 error   syscall: 'mkdir',
+64 error   path: '/home/herwin/Escritorio/node_modules/.staging' }
+65 error Please try running this command again as root/Administrator.
+66 verbose exit [ -13, true ]
